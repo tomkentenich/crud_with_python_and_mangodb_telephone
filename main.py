@@ -107,6 +107,7 @@ inform.update_many({'telephone':9345793416},{"$set":{'name':"plip"}})
 
 print("\n\n\n\n")
 print("++++++++++++ after update many ++++++++++++")
+print("++++++++++++ update jane to plip  ++++++++++++")
 print("\n\n\n\n")
 
 findmany=inform.find()
