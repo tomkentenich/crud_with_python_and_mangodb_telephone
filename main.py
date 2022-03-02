@@ -2,7 +2,7 @@ import pymongo
 
 #please enter you mongdb compass srv or local ip location in client client=pymongo.MongoClient()
 #example:
-#client=pymongo.MongoClient('example mongodb+srv://user1:user1@cluster0.cidxf.mongodb.net/test')
+#client=pymongo.MongoClient('mongodb+srv://user1:user1@cluster0.cidxf.mongodb.net/test')
 
 client=pymongo.MongoClient('')
 
