@@ -1,8 +1,12 @@
 import pymongo
 
-#please enter you mongdb
+#please enter you mongdb compass srv or local ip location in client client=pymongo.MongoClient()
+#example:
+#client=pymongo.MongoClient('example mongodb+srv://user1:user1@cluster0.cidxf.mongodb.net/test')
 
-client=pymongo.MongoClient('mongodb://user1:user1@cluster0-shard-00-00.cfxdi.mongodb.net:27017,cluster0-shard-00-01.cfxdi.mongodb.net:27017,cluster0-shard-00-02.cfxdi.mongodb.net:27017/test?replicaSet=atlas-zyvjcs-shard-0&ssl=true&authSource=admin')
+client=pymongo.MongoClient('')
+
+
 db=client["telecom_directory"]
 inform=db.T1
 record=	{
